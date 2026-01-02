@@ -15,9 +15,9 @@
 #include "TFT_eSPI.h" // Librería para pantalla ILI9341
 
 // PLACA Y MÓDULOS
-// ESPWROOM32 XX5R69 ← ILI9341: 5V, GND, G14 (SCLK), G13 (MOSI), G2 (DC), G15 (CS), G26 (RST), G21 (BLK)
-//                   ← A7670SA-FASE (GPS): 3.3V, GND, G16 (TXD), G17 (RXD)
-//                   ← TF Micro SD Card Module: 5V, GND, G12 (MISO), G13 (MOSI), G14 (SCLK), G15 (CS)
+// ESPWROOM32 XX5R69 ← ILI9341: 3.3V, GND, G14 (SCLK), G13 (MOSI), G2 (DC), G15 (CS), G26 (RST), G21 (BLK)
+//                   ← A7670SA-FASE: 5V, GND, G16 (TXD), G17 (RXD)
+//                   ← TF Micro SD Card: 3.3V, GND, G12 (MISO), G13 (MOSI), G14 (SCLK), G15 (CS)
 
 // VARIABLES GLOBALES DE CONFIGURACIÓN GPS
 #define UART_GPS_NUM UART_NUM_2 // Puerto UART utilizado para módulo GPS
